@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Compile the C program
-gcc -o hello.c
+gcc -o pointers_assignment hello.c
 
 # Check if compilation was successful
 if [ $? -ne 0 ]; then
